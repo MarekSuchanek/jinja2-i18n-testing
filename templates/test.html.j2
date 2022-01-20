@@ -1,0 +1,12 @@
+{% extends "layout.html.j2" %}
+{% block main %}
+    <strong>YOLO</strong>
+
+    {% for i in [0,1,2,3,4,5] %}
+    {% trans count=i -%}
+    There is {{ count }} object.
+    {%- pluralize -%}
+    There are {{ count }} objects.
+    {%- endtrans %}
+    {% endfor %}
+{% endblock %}

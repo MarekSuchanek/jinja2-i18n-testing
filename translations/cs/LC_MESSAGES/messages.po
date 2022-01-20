@@ -1,0 +1,40 @@
+# Czech translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2022-01-20 21:06+0100\n"
+"PO-Revision-Date: 2022-01-20 21:08+0100\n"
+"Last-Translator: \n"
+"Language-Team: cs <LL@li.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
+"Generated-By: Babel 2.9.1\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: templates/footer.html.j2:2
+msgid "This is some footer..."
+msgstr "To je nějaké zápatí..."
+
+#: templates/layout.html.j2:4
+msgid "Example title"
+msgstr "Příklad titulku"
+
+#: templates/layout.html.j2:8
+msgid "This is some header..."
+msgstr "To je nějaká hlavička..."
+
+#: templates/test.html.j2:6
+#, python-format
+msgid "There is %(count)s object."
+msgid_plural "There are %(count)s objects."
+msgstr[0] "Je tu %(count)s objekt."
+msgstr[1] "Je tu %(count)s objektů."
+msgstr[2] "Je tu %(count)s objektů."

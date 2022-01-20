@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+    <head>
+        <title>{{ gettext("Example title") }}</title>
+    </head>
+    <body>
+        <header>
+            {{ gettext("This is some header...") }}
+        </header>
+        <article>
+            {% block main %}{% endblock %}
+        </article>
+        <footer>
+            {% include "footer.html.j2" %}
+        </footer>
+    </body>
+</html>
